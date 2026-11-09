@@ -1,0 +1,5 @@
+*.zip
+*.npy
+diffusion_ckpt.pt
+images/
+__pycache__/

@@ -1,0 +1,4 @@
+,bal_acc,f1,auc,mel_recall
+E1_baseline,0.672,0.64,0.944,0.604
+E2_oversample,0.701,0.658,0.955,0.594
+E3_oversample+synth,0.699,0.655,0.947,0.508
