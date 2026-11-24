@@ -1,8 +1,10 @@
 # AI-Based Early Skin Cancer Detection and Medical Image Generation
 
- project: skin lesion classification (HAM10000, 7 classes) with EfficientNet-B0, a class-conditional diffusion model for minority-class image generation, Grad-CAM explainability, and a Gradio demo.
+🔗 **Live Standalone Web App:** https://vtu30278-skin-lesion-analysis.hf.space  
+🤗 **Hugging Face Space:** https://huggingface.co/spaces/vtu30278/skin-lesion-analysis
 
-**Research prototype. Not a medical device.**
+Project: skin lesion classification (HAM10000, 7 classes) with EfficientNet-B0, a class-conditional diffusion model for minority-class image generation, Grad-CAM explainability, patient case reporting, and a Gradio demo.
+*Research prototype. Not a medical device.*
 
 ## Results (test set, lesion-level split, no leakage)
 | Experiment | Bal. acc | Macro F1 | AUC | Melanoma recall |
