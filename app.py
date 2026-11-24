@@ -14,7 +14,7 @@ names = {
 }
 
 m = timm.create_model("efficientnet_b0", pretrained=False, num_classes=7).to(device)
-m.load_state_dict(torch.load("E2.pth", map_location=device))
+m.load_state_dict(torch.load("models/E2.pth", map_location=device))
 m.eval()
 
 cam = GradCAM(model=m, target_layers=[m.conv_head])
