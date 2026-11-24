@@ -1,7 +1,7 @@
 # AI-Based Early Skin Cancer Detection and Medical Image Generation
+🔗 **Live Standalone Web App:** https://skin-ai-project-skin-lesion-analysis.hf.space  
+🤗 **Hugging Face Space:** https://huggingface.co/spaces/skin-ai-project/skin-lesion-analysis
 
-🔗 **Live Standalone Web App:** https://vtu30278-skin-lesion-analysis.hf.space  
-🤗 **Hugging Face Space:** https://huggingface.co/spaces/vtu30278/skin-lesion-analysis
 
 Project: skin lesion classification (HAM10000, 7 classes) with EfficientNet-B0, a class-conditional diffusion model for minority-class image generation, Grad-CAM explainability, patient case reporting, and a Gradio demo.
 *Research prototype. Not a medical device.*
